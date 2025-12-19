@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+scikit-learn
+numpy
+opencv-python
+pillow
+pandas
+python-multipart
+torch
+diffusers
+transformers
+accelerate
+pydantic

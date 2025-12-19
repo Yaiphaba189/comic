@@ -1,0 +1,25 @@
+# General
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env
+*.log
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.next/
+dist/
+build/
+out/
+
+# Project Specific
+backend/api_outputs/
