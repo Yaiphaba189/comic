@@ -4,40 +4,46 @@
 
 ABSTRACT
 
-CHAPTER 1: INTRODUCTION
-1.1 Overview
-1.2 Problem Statement
-1.3 Objectives
-1.4 Methodology
+## CHAPTER 1: INTRODUCTION
 
-CHAPTER 2: TECHNOLOGY STACK
-2.1 Hardware Requirements
-2.2 Software Requirements
-2.3 Development Tools
-2.4 SDLC
+- 1.1 Overview
+- 1.2 Problem Statement
+- 1.3 Objectives
+- 1.4 Methodology
 
-CHAPTER 3: SYSTEM DESIGN
-3.1 Architecture
-3.2 Data Flow
-3.3 Logic & Algorithms
+## CHAPTER 2: TECHNOLOGY STACK
 
-CHAPTER 4: SYSTEM IMPLEMENTATION
-4.1 Story Parser (NLP)
-4.2 Machine Learning Engine (Emotion Training)
-4.3 Backend API
-4.4 Frontend Dashboard
-4.5 Layout & Rendering Engine
+- 2.1 Hardware Requirements
+- 2.2 Software Requirements
+- 2.3 Development Tools
+- 2.4 SDLC
 
-CHAPTER 5: RESULTS & ANALYSIS
-5.1 Interface Analysis
-5.2 Functional Testing
-5.3 Performance Metrics
+## CHAPTER 3: SYSTEM DESIGN
 
-CHAPTER 6: CONCLUSION
-6.1 Achievements
-6.2 Future Scope
+- 3.1 Architecture
+- 3.2 Data Flow
+- 3.3 Logic & Algorithms
 
-REFERENCES
+## CHAPTER 4: SYSTEM IMPLEMENTATION
+
+- 4.1 Story Parser (NLP)
+- 4.2 Machine Learning Engine (Emotion Training)
+- 4.3 Backend API
+- 4.4 Frontend Dashboard
+- 4.5 Layout & Rendering Engine
+
+## CHAPTER 5: RESULTS & ANALYSIS
+
+- 5.1 Interface Analysis
+- 5.2 Functional Testing
+- 5.3 Performance Metrics
+
+## CHAPTER 6: CONCLUSION
+
+- 6.1 Achievements
+- 6.2 Future Scope
+
+## REFERENCES
 
 ---
 
