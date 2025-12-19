@@ -202,7 +202,7 @@ graph LR
     Preproc -->|Clean & Tokenize| Split[Train/Test Split]
 
     subgraph "Hyperparameter Tuning"
-        Split -->|Train Set| GridSearch[Grid Search <br/>(Alphas: 0.1, 0.5, 1.0)]
+        Split -->|Train Set| GridSearch["Grid Search <br/>(Alphas: 0.1, 0.5, 1.0)"]
         GridSearch -->|Cross Validation| BestAlpha[Select Best Alpha]
     end
 
@@ -254,7 +254,19 @@ The user interface successfully abstracts the complexity of the backend. Users a
 
 ### 5.2 Functional Testing
 
-- **Emotion Recognition**: The model successfully distinguishes between disparate emotions (e.g., "Joy" vs "Anger") with ~85% accuracy on the validation set.
+- **Emotion Recognition**: The model distinguishes between disparate emotions with **86% accuracy** on the validation set.
+
+  **Detailed Classification Report:**
+
+  | Emotion          | Precision | Recall   | F1-Score | Support  |
+  | :--------------- | :-------- | :------- | :------- | :------- |
+  | **Angry**        | 0.89      | 0.71     | 0.79     | 427      |
+  | **Fear**         | 0.84      | 0.68     | 0.75     | 397      |
+  | **Happy**        | 0.86      | 0.97     | 0.91     | 1317     |
+  | **Sad**          | 0.85      | 0.91     | 0.88     | 946      |
+  | **Surprise**     | 0.84      | 0.34     | 0.48     | 113      |
+  | **Weighted Avg** | **0.86**  | **0.86** | **0.85** | **3200** |
+
 - **Visual Fidelity**: Stable Diffusion generates high-fidelity images. However, coherence (keeping the same shirt color for a character) remains a challenge inherent to latent diffusion models without specific LoRA fine-tuning.
 - **Layout**: The dynamic layout engine correctly formats 1-4 panel strips. Complex layouts (5+ panels) sometimes result in smaller-than-ideal images on standard displays.
 
